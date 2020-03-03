@@ -1,5 +1,7 @@
 # Open Source 101: Beyond CI/CD
 
+😎
+
 ## 🎯 Goal
 
 Use open source GitHub Actions to automate tasks and discuss making your very own GitHub Action.
@@ -36,8 +38,8 @@ jobs:
           labels: '["triage"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 ```
-</details>
 
+</details>
 
 #### 2. Greet first time contributors (pull request or issue) with a greeting like "Hello, new contributor!"
 
@@ -67,11 +69,12 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Welcome! Thanks for opening an issue in this project!'
 ```
+
 </details>
 
 #### 3. (Together) Make our very own Hello World action
 
 ## 🏅 Extra credit
 
-* [Write your own action](https://help.github.com/en/actions/building-actions/about-actions)
-* [Publish it to GitHub Marketplace](https://help.github.com/en/actions/building-actions/publishing-actions-in-github-marketplace)
+- [Write your own action](https://help.github.com/en/actions/building-actions/about-actions)
+- [Publish it to GitHub Marketplace](https://help.github.com/en/actions/building-actions/publishing-actions-in-github-marketplace)
